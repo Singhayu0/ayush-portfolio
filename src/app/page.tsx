@@ -251,14 +251,81 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
+
+
+            {/* Project 3 — Body Tune Fitness */}
+              <div className="group overflow-hidden rounded-3xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900">
+                {/* Project Preview */}
+                <div className="flex h-56 items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-green-950">
+                  <div className="text-center">
+                    <div className="text-5xl font-extrabold tracking-tight text-lime-400">
+                      BODY TUNE
+                    </div>
+                    <p className="mt-2 text-sm font-semibold uppercase tracking-[0.3em] text-white">
+                      Fitness
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-7">
+                  {/* Technologies */}
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+                      HTML
+                    </span>
+                    <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+                      CSS
+                    </span>
+                    <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+                      JavaScript
+                    </span>
+                  </div>
+
+                  {/* Project Title */}
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                    Body Tune Fitness
+                  </h3>
+
+                  {/* Description */}
+                  <p className="mt-3 leading-7 text-gray-600 dark:text-gray-400">
+                    A fitness website built with HTML, CSS and JavaScript,
+                    focused on an engaging user interface and responsive web design.
+                  </p>
+
+                  {/* Project Links */}
+                  <div className="mt-6 flex gap-5">
+                    <a
+                      href="https://github.com/Singhayu0/body-tune-fitness"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-gray-900 underline-offset-4 hover:underline dark:text-white"
+                    >
+                      GitHub →
+                    </a>
+
+                    <a
+                      href="https://body-tune-fitness.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600 underline-offset-4 hover:underline dark:text-blue-400"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
             
             {/* Project 1 */}
             <div className="group overflow-hidden rounded-3xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900">
-              <div className="flex h-56 items-center justify-center bg-gray-100 dark:bg-gray-800">
-                <span className="text-5xl font-bold text-gray-300 dark:text-gray-600">
-                  &lt;/&gt;
-                </span>
+              
+              <div className="h-56 overflow-hidden bg-gray-100 dark:bg-gray-800">
+                <img
+                  src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=80"
+                  alt="Photographer Portfolio camera preview"
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
               </div>
+
 
               <div className="p-7">
                 <div className="mb-4 flex flex-wrap gap-2">
@@ -353,6 +420,9 @@ export default function Home() {
               </div>
             </div>
 
+
+
+
           </div>
         </div>
       </section>                                              
@@ -384,11 +454,11 @@ export default function Home() {
                   </p>
 
                   <h3 className="mt-2 text-2xl font-bold text-gray-900 dark:text-white">
-                    B.Tech in Computer Science
+                    B.Tech in Computer Science & Engineering
                   </h3>
 
                   <p className="mt-2 text-gray-600 dark:text-gray-400">
-                    SDM College of Technology
+                    SD Bansal College of Technology
                   </p>
 
                   <p className="mt-1 text-gray-500 dark:text-gray-500">
@@ -397,7 +467,7 @@ export default function Home() {
                 </div>
 
                 <span className="w-fit rounded-full bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300">
-                  Computer Science
+                  Computer Science & Engineering
                 </span>
               </div>
 
